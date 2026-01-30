@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int arr[5];
+    for(int i=0;i<=4;i++){
+        scanf("%d",&arr[i]);//Taking input
+    }
+     for(int i=0;i<=4;i++){
+    printf("%d ",arr[i]);//print inputs
+        
+    }
+    return 0;
+}
+/*arr[i] also can written in i[arr], *(arr + i) form*/
